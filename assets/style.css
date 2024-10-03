@@ -1,37 +1,100 @@
 body {
-    width: 450vh ;
+    font-family: poppins;
+    width: 450px ;
     height: 500px;
+    margin-left: 10px;
     background-image: url(./sfondo.png);
-    background-IM
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: 450px, 500px auto;
+    
 }
-table { border: 1px solid black;
-            
+table { 
+    width: 430px;
+    height: 130px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 12px;
+    border: 1px solid black;           
 }
 td,th {
-   background-color: rgb(148, 141, 216);
+    font-family: poppins;
+   background-color: rgb(66, 137, 213);
     border: 1px solid black;
     border-collapse: collapse;
 }
 img{
-    width: 100px;
-    padding-bottom: 1em;
+    height: 50px;
+    padding-top: 10px;
+    width: 155px;
+    padding-bottom: 10px;
 }
 h1 {
-    font-size: 2em;
+    font-size: 20px;
+    font-weight: bold; 
+    color: white;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase; 
+    margin-bottom: 5px;
+}
+header {
+    text-align: center;
+    height: 220px;
+    width: 450px;
+    margin-top: 8px;
+    margin-left: 8px;
+    background-color: rgba(0, 153, 190, 255);
+    border: solid 1px white; 
+    box-shadow:  -1px 7px 48px 20px rgba(197,197,197,0.58);
+}
+#menu1 {
+    margin-top: 20px;
+    font-size: 20px;
+    list-style-type: none;
+    color: white;
+}
+h4 {
+    padding-top: 8px;
+    font-size: 20px;
     font-weight: bold; 
     margin-bottom: 0.5em;
     text-align: center;
     text-transform: uppercase; 
 }
-header {
+main {
+    border: solid 2px rgba(255, 255, 255, 0); 
+    box-shadow:  -1px 7px 48px 20px rgba(197,197,197,0.58);
+    background-color: white;
+    width: 435px;
+    height: 400px;
+    margin-top: 8px;
+    margin-left: 8px;
+    padding-left: 8px;
+    padding-right: 5px;
+    }
+
+footer { 
+    font-size: 12px;
+    background-color: white;
+    width: 430px;
     text-align: center;
-    width: 100px;
-    margin-left: 35px;
-    background-color: rgba(0, 153, 190, 255);
-    border: solid 1px white;
-    box-shadow: 8px 2px 31px 5px #747474;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 8px;
 }
-#menu1 {
-    font-size: 10px;
-    list-style-type: none;
+#contenuti{
+    font-size: 12px;
 }
+ol {
+    list-style-type: style;
+}
+p {
+    font-size: 12px;
+    display: block;
+    margin-bottom: 5px;
+}
+hr {
+    border: solid 1px blue;
+}
+
